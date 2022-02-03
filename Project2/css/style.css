@@ -87,7 +87,7 @@ a.sm1{
     display:inline-block;
     background-color: #bc2a8d;
     border-radius: 50%;
-    font-size: 3m;
+    font-size: 3mm;
     color:white;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
@@ -100,7 +100,7 @@ a.sm2{
     display:inline-block;
     background-color: #34B7F1;
     border-radius: 50%;
-    font-size: 3m;
+    font-size: 3mm;
     color:white;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
@@ -134,7 +134,6 @@ main img{
     margin: 20px auto;
     border-radius: 10px;
     max-width: 100%;
-    min-width: none;
 }
 
 

@@ -7,6 +7,7 @@
     margin: 20px auto;
     border-radius: 1%;
 }
+
 body{
     background-color: red;
 }
@@ -14,7 +15,7 @@ header{
     background-color: white ;
 }
 header img{
-    width: 30%;
+    width: 40%;
     display:block;
     margin: 0px auto;
     padding: 0px;
@@ -55,16 +56,14 @@ div {
 }
 img { 
     display:block;
-    width:70%; 
+    width:75%; 
     margin-left: auto;
     margin-right: auto;
- 
+    border-radius: 3%;
 
 }
 
 footer{
-    background-color:red;
-    border-radius: 0 0 5px 5px;
     text-align:center;
-    padding:20px;
+    padding: 20px;
 }

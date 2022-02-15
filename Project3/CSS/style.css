@@ -13,8 +13,8 @@ img{
 /* Mobile Styles */
 
 #container {
+    width:100%;
  background-color: #BFAC9B;
- margin:15px;
 }
 
 header{
@@ -74,7 +74,7 @@ h5{
 
 @media(min-width: 768px) {
     #container{
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
     }
     .col{ 
@@ -90,7 +90,7 @@ h5{
 
 @media(min-width: 1024px){
     #container{
-        width: 75%;
+        width: 98%;
         border-radius: 20px;
     }
     #flex{
@@ -101,7 +101,7 @@ h5{
         margin: 20px;
     }
     .col img{
-        width: 40%;
+        width: 60%;
     }
     .main_img{
         display:block;

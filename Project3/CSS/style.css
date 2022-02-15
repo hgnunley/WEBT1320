@@ -1,69 +1,111 @@
-
-
-
-#container{
-    width: 100%;
-    background-color:white;
-    margin: 20px auto;
-    border-radius: 1%;
-}
-
 body{
-    background-color: red;
+    background-color: #D9CBBF;
+    font-size: 18px; 
+    font-family: 'Oswald', sans-serif;
 }
+
+img{ 
+    display:block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mobile Styles */
+
+#container {
+ background-color: #BFAC9B;
+ margin:15px;
+}
+
 header{
-    background-color: white ;
+    padding: 15px ;
+    border-bottom: 5px solid #730202;
+    background-color: #262626;
 }
-header img{
-    width: 40%;
-    display:block;
-    margin: 0px auto;
-    padding: 0px;
+
+header h1{
+ text-align: center;
+ font-size: 2.5em;
+ font-family: 'Libre Baskerville', serif;
+ color:#D9CBBF;
 }
-main{
-    background-color:white;
-    margin: 20px auto;
-    width: 90%;
-    padding:20px;
+
+
+
+.col {
+    border: 2px dotted #401E01;
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 20px;
+
 }
-h1{
+
+.col h2 {
+    text-align: center;
+    font-size: 2em;
+}
+.col h4{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Libre Baskerville', serif;
+}
+.col p{
     text-align: center;
 }
-h2{
-    text-align:center;
-}
-h5 {
-    text-align: center;
-}
-.frontpage{
-    display:flex; 
-    background-color:black;
-    width: 100%;
-}
-
-div {
-    background-color: #f1f1f1;
-    padding: 1%;
-    width: 33.3%; 
-  }
-
-.sections {
-    padding-Left:5%;
-    padding-right:3%;
-    Padding-bottom:3%; 
-    width: 33.3; 
+.col img {
+    width: 50%;
 
 }
-img { 
-    display:block;
-    width:75%; 
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 3%;
-
+.main_img{
+    display: none;
 }
-
 footer{
-    text-align:center;
-    padding: 20px;
+    background-color: #262626;
+    padding: 40px 0;
+    text-align: center;
+    border-top: 5px solid #730202;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+}
+h5{
+    color: #D9CBBF;
+}
+
+@media(min-width: 768px) {
+    #container{
+    width: 90%;
+    margin: 0 auto;
+    }
+    .col{ 
+        width: 65%;
+        margin: 0 auto;
+        padding: 40px;
+    }
+    .col img{ 
+        width: 30%;
+
+    }
+}
+
+@media(min-width: 1024px){
+    #container{
+        width: 75%;
+        border-radius: 20px;
+    }
+    #flex{
+        display: flex;
+
+    }
+    .col{
+        margin: 20px;
+    }
+    .col img{
+        width: 40%;
+    }
+    .main_img{
+        display:block;
+        width: 50%;
+        margin: 20px auto; 
+    }
 }

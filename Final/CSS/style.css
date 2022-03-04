@@ -1,0 +1,370 @@
+body{
+    background-color: grey;
+    font-size: 17px; 
+}
+img{ 
+    display: block;
+    margin: 0px auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
+/* mobile styles */
+
+#container{
+    margin: 2px ;
+    background-color:black;
+
+}
+header{
+    background-color: grey;
+}
+
+header img{
+    width: 45%;
+    display:block;
+    margin: 0px auto;
+}
+nav{
+    background-color:grey;
+    text-align: center ;
+    padding: 10px;
+   
+}
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+
+}
+nav li{
+    display: block;
+}
+nav li a{
+    
+    color: black;
+    display: block;
+    text-align: center;
+    height: 20px; 
+    line-height: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0 ;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a:hover{
+    background-color:orange;
+}
+h1{
+    padding-top: 3%;
+    text-align: center;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: orange;
+    font-family:superior-title,serif;
+    text-align: center;
+}
+img.porch{
+
+    width: 90%;
+}
+p{
+    color: grey;
+    text-align: center;
+    font-family: superior-title,serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:3%;
+
+}
+a.alltrails{ 
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+a.southcumberland{
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+a.Museum{
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.museums{
+    display: flex;
+    padding-top:1%;
+    Padding-bottom:5%; 
+    justify-content: center;
+    width:100%;
+    background-color: #D9ABA0;
+}
+
+.col {
+    padding: 1%;
+    margin:20px;
+}
+table{
+    font-family:superior-title,serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 2%;
+}
+tr{
+    background-color:grey ;
+}
+footer{
+    background-color:black ;
+    color:orange;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    padding:20px;
+}
+
+/* Tablet Styles */
+@media(min-width:768px) {
+
+    nav ul{
+        list-style-type: none;
+        padding:0;
+    
+    }
+    nav li{
+        display: block;
+    }
+    nav li a{
+        
+        color: black;
+        display: block;
+        text-align: center;
+        height: 20px; 
+        line-height: 20px;
+        text-decoration: none;
+        font-size: 2em;
+        padding: 1%;
+        margin: 10px 0 ;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav a:hover{
+        background-color:orange;
+    }
+        h1{
+            padding-top: 3%;
+            font-size: 3em;
+            text-align: center;
+            color: orange;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h3{
+            color: orange;
+            font-family:superior-title,serif;
+            text-align: center;
+            font-size: 2em;
+        }
+        img.porch{
+        
+            width: 90%;
+        }
+        p{
+            color: grey;
+            text-align: center;
+            font-family: superior-title,serif;
+            font-weight: 400;
+            font-size: 1.5em;
+            font-style: normal;
+            padding:3%;
+        
+        }
+        a.alltrails{ 
+            color: green;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+        }
+        a.southcumberland{
+            color:green;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+        }
+        a.Museum{
+            color:green;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+        }
+        .museums{
+            display: flex;
+            padding-top:1%;
+            Padding-bottom:5%; 
+            justify-content: center;
+            width:100%;
+            background-color: #D9ABA0;
+        }
+        
+        .col {
+            padding: 1%;
+            margin:20px;
+        }
+        table{
+            font-family:superior-title,serif;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 2%;
+        }
+        tr{
+            background-color:grey ;
+        }
+        footer{
+            background-color:black ;
+            color:orange;
+            border-radius: 0 0 5px 5px;
+            text-align: center;
+            padding:20px;
+        }
+        
+}
+/* Laptop Styles*/ 
+@media(min-width: 1024px){
+    #container{
+        margin: 2px ;
+        background-color:black;
+    
+    }
+    header{
+        background-color: grey;
+    }
+    
+    header img{
+        width: 30%;
+        display:block;
+        margin: 0px auto;
+    }
+    nav{
+        background-color:grey;
+        text-align: center ;
+        padding: 10px;
+       
+    }
+    
+    nav ul{
+        list-style-type: none;
+        padding:0;
+    
+    }
+    nav li{
+        display: inline;
+    }
+    nav li a{
+        
+        color: black;
+        display: inline;
+        text-align: center;
+        height: 20px; 
+        line-height: 20px;
+        text-decoration: none;
+        font-size: 2em;
+        margin: 10px 0 ;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav a:hover{
+        background-color:orange;
+    }
+    h1{
+        padding-top: 3%;
+        text-align: center;
+        color: orange;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h3{
+        color: orange;
+        font-family:superior-title,serif;
+        text-align: center;
+    }
+    img.porch{
+        display:none;
+        width: 50%;
+    }
+    p{
+        color: grey;
+        text-align: center;
+        font-family: superior-title,serif;
+        font-weight: 400;
+        font-size: 2em;
+        font-style: normal;
+        padding:1.5%;
+    
+    }
+   
+    a.alltrails{ 
+        color: green;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+    a.southcumberland{
+        color:green;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+    a.Museum{
+        color:green;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+    .museums{
+        display:inline-flex;
+        padding-top:1%;
+        Padding-bottom:5%; 
+        justify-content: center;
+        width:100%;
+        background-color: #D9ABA0;
+    }
+    
+    .col {
+       
+        padding: 1%;
+        margin:20px;
+    }
+    .mpic{
+        width:40%;
+    }
+    table{
+        font-family:superior-title,serif;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    td, th{
+        border: 1px solid black;
+        text-align: center;
+        padding: 2%;
+    }
+    tr{
+        background-color:grey ;
+    }
+    footer{
+        background-color:black ;
+        color:orange;
+        font-size: 1.8em;
+        border-radius: 0 0 5px 5px;
+        text-align: center;
+        padding:20px;
+    }
+    
+
+
+
+
+}
